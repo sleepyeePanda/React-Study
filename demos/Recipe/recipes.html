@@ -10,12 +10,12 @@
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <script type="text/babel" src="app.js"></script>
-
 
 </head>
 <body>
     <div id="react-container"></div>
+    <!-- div 태그 다음 script 태그 순으로 추가하지 않으면 Target container is not a DOM element 오류 발생-->
+    <script src="./dist/assets/bundle.js"></script>
     
 </body>
 </html>
