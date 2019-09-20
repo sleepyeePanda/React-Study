@@ -3,7 +3,9 @@ module.exports = {
     output: {
         path: __dirname +"/dist/assets",
         filename: "bundle.js",
+        sourceMapFilename: 'bundle.map'
     },
+    devtool: '#source-map',
     module: {
         rules: [{
             test: /\.js$/,
