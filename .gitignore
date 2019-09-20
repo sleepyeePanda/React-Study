@@ -15,4 +15,4 @@
 
 # End of https://www.gitignore.io/api/visualstudiocode
 
-src/RecipeDemo/node_modules/
+demos/Recipe/src/node_modules/
